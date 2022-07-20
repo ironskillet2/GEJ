@@ -42,3 +42,20 @@ footer{
 label {
     font-size: 1.1rem;
  }
+
+@media screen and (max-width: 480px) {
+
+
+    .header {
+        flex-direction: column;
+        margin-bottom: 60px;
+    }
+
+    .contact {
+        display: none;
+    }
+    footer {
+        height: 120px;
+    }
+    
+}
